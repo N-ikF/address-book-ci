@@ -35,5 +35,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: target/docs/javadoc
-    -name: Test
-     run: mvn test
+    - name: Test
+      run: mvn test
